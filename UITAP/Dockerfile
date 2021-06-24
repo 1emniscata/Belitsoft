@@ -4,7 +4,7 @@ MAINTAINER varunkumar032@gmail.com
 
 COPY . /python-test-calculator
 
-WORKDIR /
+WORKDIR / UITAP
 
 RUN pip freeze > requirements.txt
 
