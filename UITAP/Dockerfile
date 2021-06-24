@@ -4,7 +4,7 @@ MAINTAINER varunkumar032@gmail.com
 
 COPY . /python-test-calculator
 
-WORKDIR /python-test-calculator
+WORKDIR /
 
 RUN pip install --no-cache-dir -r requirements.txt
 
