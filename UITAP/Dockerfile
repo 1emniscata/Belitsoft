@@ -6,6 +6,7 @@ COPY . /python-test-calculator
 
 WORKDIR /
 
+RUN cd UITAP
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
