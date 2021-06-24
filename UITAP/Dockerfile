@@ -4,7 +4,9 @@ MAINTAINER varunkumar032@gmail.com
 
 COPY . /python-test-calculator
 
-WORKDIR /
+WORKDIR /UITAP
+
+
 
 RUN cd UITAP
 RUN pip install --no-cache-dir -r requirements.txt
