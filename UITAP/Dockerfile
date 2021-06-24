@@ -6,6 +6,8 @@ COPY . /python-test-calculator
 
 WORKDIR /
 
+RUN pwd
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
