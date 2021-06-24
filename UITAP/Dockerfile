@@ -6,7 +6,7 @@ COPY . /python-test-calculator
 
 WORKDIR /
 
-RUN pwd
+RUN cd UITAP
 
 RUN pip install --no-cache-dir -r requirements.txt
 
