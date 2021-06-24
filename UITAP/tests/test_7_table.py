@@ -1,5 +1,5 @@
-from pages.base_page import BasePage
-from pages.page_object7 import TablePage
+from UITAP.pages.base_page import BasePage
+from UITAP.pages.page_object7 import TablePage
 
 
 def test_sample_app(browser):

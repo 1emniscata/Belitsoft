@@ -1,8 +1,8 @@
 import pytest
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
-from pages.base_page import BasePage
-from pages.page_object9 import HiddenLayersPage
+from UITAP.pages.base_page import BasePage
+from UITAP.pages.page_object9 import HiddenLayersPage
 
 
 def test_sample_app(browser):

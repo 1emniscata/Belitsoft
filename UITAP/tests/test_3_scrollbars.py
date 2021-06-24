@@ -1,5 +1,5 @@
-from pages.base_page import BasePage
-from pages.page_object3 import ScrollbarsPage
+from UITAP.pages.base_page import BasePage
+from UITAP.pages.page_object3 import ScrollbarsPage
 
 
 def test_sample_app(browser):
@@ -11,4 +11,3 @@ def test_sample_app(browser):
     layers_page = ScrollbarsPage(browser)
     layers_page.scroll()
     assert layers_page.check_button_visibility()
-

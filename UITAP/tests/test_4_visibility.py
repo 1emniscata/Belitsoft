@@ -1,5 +1,5 @@
-from pages.base_page import BasePage
-from pages.page_object4 import VisibilityPage
+from UITAP.pages.base_page import BasePage
+from UITAP.pages.page_object4 import VisibilityPage
 
 
 def test_visibility(browser):

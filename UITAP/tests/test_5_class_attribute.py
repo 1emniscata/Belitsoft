@@ -1,5 +1,5 @@
-from pages.base_page import BasePage
-from pages.page_object5 import ClassAttributePage
+from UITAP.pages.base_page import BasePage
+from UITAP.pages.page_object5 import ClassAttributePage
 
 
 def test_button(browser):
