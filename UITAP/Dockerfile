@@ -10,6 +10,8 @@ RUN pip freeze > requirements.txt
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN cd ./UITAP && ["pytest", "-v", "--junitxml=reports/result.xml"]
+WORKDIR /UITAP
+
+RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
 
 CMD tail -f /dev/null
