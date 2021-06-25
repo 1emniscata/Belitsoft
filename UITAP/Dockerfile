@@ -12,6 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 WORKDIR /
 
-RUN ["python m pytest", "./UITAP", "--junitxml=reports/result.xml"]
+RUN ["python m pytest", "./UITAP/", "--junitxml=reports/result.xml"]
 
 CMD tail -f /dev/null
